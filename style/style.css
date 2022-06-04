@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url("/IMG/ramen.jpg");
+    background-color: #cccccc;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.header{
+    height: 90vh;
+    position: relative;
+}
+
+.navbar{
+    height: 110px;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    z-index: 10;
+    position: fixed;
+}
+
+.nav-box{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.logo-1{
+    font-size: 3.5rem;
+}
+
+.nav-list{
+    list-style: none;
+    font-size: 2rem;
+}
+
+.nav-item{
+    display: inline-block;
+}
+
+.nav-link:visited,
+.nav-link:link{
+    text-decoration: none;
+    color: white;
+    padding: 3rem;
+    transition: all .2sec ease;
+}
+
+.nav-link:hover{
+    background-color: blueviolet;
+    border-radius: 250px;
+    color: white;
+}
+
+.nav-on:visited,
+.nav-on:link{
+    text-decoration: none;
+    color: white;
+    padding: 2rem 3.5rem;
+    border: 3px blueviolet;
+    border-radius: 250px;
+    box-shadow: 0 0 4rem rgb(221, 255, 0);
+    text-shadow: aqua;
+    transition: all .5s ease;
+}
+
+.nav-on:hover{
+    background-color: blueviolet;
+    color: palegreen;
+}
+
+.hamburger{
+    height: 5rem;
+    width: 5rem;
+    display: none;
+}
+
+.hamburger div{
+    height: 3px;
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 1rem;
+}
+
+.body-header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.primary{
+    color: white;
+    font-size: 7.5rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+#ramen{
+    color: rgb(221, 255, 0);
+    font-weight: 850;
+    font-size: 8rem;
+}
+
